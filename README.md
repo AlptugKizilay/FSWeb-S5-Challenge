@@ -57,3 +57,18 @@ Aşağıdaki soruları yanıtlayarak bu sprint'in kavramlarını anladığınız
 3. Bir event dinleyici(listener) nedir?
 4. Neden bir NodeList'i Array'e dönüştürelim??
 5. Bileşen nedir?
+
+1-DOM Nedir?
+DOM (Document Object Model), bir web sayfasının yapısını ve içeriğini temsil eden bir programlama arabirimidir. Web tarayıcısı, HTML, CSS ve JavaScript kodlarını okur ve DOM'u oluşturur. Bu nesneler hiyerarşik bir yapıdadır ve birbirleriyle ilişkilidir. JavaScript, DOM'u kullanarak web sayfası içeriğini, stilini ve yapısını değiştirebilir.
+
+2-Bir Event Nedir?
+Bir event, kullanıcının bir web sayfasındaki etkileşimini temsil eder. Örneğin, bir düğmeye tıklandığında, bir metin kutusuna yazı yazıldığında veya fare imleci bir öğenin üzerine geldiğinde bir olay gerçekleşir. JavaScript, belirli bir olayın gerçekleştiğinde belirli bir işlevi tetiklemek için kullanılabilir.
+
+3-Bir Event Dinleyici (Listener) Nedir?
+Bir event dinleyici, belirli bir olayın gerçekleştiğinde tetiklenecek bir işlevi tanımlayan bir JavaScript işlevidir. Bir event dinleyici, olaya dinleme ekleyerek, olay gerçekleştiğinde tetiklenecek işlevi belirler.
+
+4-Neden bir NodeList'i Array'e dönüştürelim?
+NodeList, DOM'da bir sorgunun sonucu olarak döndürülen bir öğeler listesidir. Bir NodeList, bir dizi gibi görünse de, aslında bir dizi değildir ve dizi yöntemleri kullanılamaz. Bu nedenle, NodeList'i bir diziye dönüştürerek, dizi yöntemlerini kullanarak NodeList üzerinde işlem yapmak daha kolay hale gelir.
+
+6-Bileşen Nedir?
+Bileşen, bir web sayfasında kullanılan yeniden kullanılabilir kod bloklarını ifade eder. Bileşenler, web geliştiricilerin daha hızlı ve daha tutarlı bir şekilde web sayfaları oluşturmalarına olanak tanır. Örneğin, bir menü bileşeni, birden çok sayfada aynı şekilde görüntülenmek üzere tasarlanabilir ve kod tekrarını önler. Bileşenler, modern web geliştirme çerçeveleri ve kütüphaneleri tarafından yaygın olarak kullanılır.
