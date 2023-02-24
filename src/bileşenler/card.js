@@ -54,7 +54,7 @@ const cardEkleyici = (secici) => {
     .get("http://localhost:5001/api/makaleler")
     .then((res) => {
       console.log(res.data.makaleler);
-      const cardContainer = document.querySelector('.cards-container');
+      const cardContainer = document.querySelector(secici);
      
       const keys = Object.keys(res.data.makaleler);
       console.log(keys);

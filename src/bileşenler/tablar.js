@@ -41,7 +41,7 @@ const tabEkleyici = (secici) => {
     .then((res) => {
       console.log(res);
 
-      const tabsCont = document.querySelector(".tabs-container");
+      const tabsCont = document.querySelector(secici);
       tabsCont.append(Tablar(res.data.konular));
     })
 
